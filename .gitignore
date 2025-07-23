@@ -12,6 +12,8 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Imported TMP Assets
+/Assets/Imports_TMP/*
 # Auto-generated Unity assets of transient nature.
 /Assets/NaninovelData/Transient*
 # Transient artifacts of the external tools.
