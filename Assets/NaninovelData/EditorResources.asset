@@ -162,3 +162,8 @@ MonoBehaviour:
     - name: wk
       pathPrefix: Characters
       guid: 10bc53477fc8c094fa42fb968adce87e
+  - Id: ChoiceHandlers/b8a82073-612d-41cd-a581-5e2d84e5f75d
+    Resources:
+    - name: FirstChoice
+      pathPrefix: ChoiceHandlers
+      guid: ce92fde366a37c146b22a17fbb1542b5

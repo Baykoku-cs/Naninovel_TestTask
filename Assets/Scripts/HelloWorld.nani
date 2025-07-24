@@ -1,5 +1,16 @@
 @back Tavern
 @char wk.Face/Default>,FaceEffect>None
 wk: Привет!!
+@choice Да goto:.Yes
+@choice Нет goto:.No
 wk: Поможешь мне?
+@stop
+
+# Yes
+wk: Круто! Спасибо!!!
+@goto .SkipNo
+# No
+wk: Эээ...
+# SkipNo
+wk: Неважно.
 @stop
