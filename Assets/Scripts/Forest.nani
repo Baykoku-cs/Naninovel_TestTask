@@ -1,0 +1,23 @@
+@back Forest
+wk: Мы идем по лесу за цветами. Круто!
+@char wk pos:20 wait:false
+wk: О. Кто-то идет!
+
+@char thug pos:80 wait:false
+thug: Я плохой!
+@char wk.Face/Shock>,FaceEffect>Darker
+wk: АААА! Плохой!
+@char wk.Face/Default>,FaceEffect>None
+wk: Придется драться!!!
+
+; @startGame
+@set isFightEnded=true
+
+# AfterGame
+thug: Блиииин! Вы победили меня(
+wk: Ага
+thug: Я убегаю
+@hide thug
+@arrange 
+Ну все, домой
+@goto GuildTavern.AfterFight

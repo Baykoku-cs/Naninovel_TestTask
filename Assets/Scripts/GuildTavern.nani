@@ -4,7 +4,8 @@ wk: Привет!!
 
 @choice Да goto:.Yes
 @choice Нет goto:.No
-wk: Поможешь мне?
+wk: Поможешь мне? [skipInput]
+@stop
 
 # Yes
 @addScore scoreDelta:10
@@ -16,10 +17,14 @@ wk: Эээ...
 
 # Exit
 @char wk.Face/Default>,FaceEffect>None
-wk: Неважно.
+wk: Неважно. Мы идем за цветами.
+@hidePrinter
+@goto Forest
+@stop
 
+# AfterFight
+@back Tavern
 @checkScore scoreThreshold:5 ifLabel:GoodEnd elseLabel:BadEnd
-
 # GoodEnd
 Хорошая концовка!
 @stop

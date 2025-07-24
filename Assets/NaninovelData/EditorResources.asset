@@ -146,9 +146,12 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: NewScript
+    - name: GuildTavern
       pathPrefix: Scripts
       guid: 2be38e92eb2df0c4e909a5caa93e64b0
+    - name: Forest
+      pathPrefix: Scripts
+      guid: 5d8cecc5cb50dbf48933d85e3aa9e5ad
   - Id: Backgrounds/12ae0957-5dd4-4591-ad5d-7d94063f8814
     Resources:
     - name: Tavern
@@ -157,8 +160,16 @@ MonoBehaviour:
     - name: Tasks
       pathPrefix: Backgrounds/MainBackground
       guid: 06649d694aa1fcc4a8eae03a0f3aa402
+    - name: Forest
+      pathPrefix: Backgrounds/MainBackground
+      guid: c266faa2f49f35042927c3d1a03df9b2
   - Id: Characters/a7cd6bc9-8edc-4b8b-846c-d45193e3572f
     Resources:
     - name: wk
       pathPrefix: Characters
       guid: 10bc53477fc8c094fa42fb968adce87e
+  - Id: Characters/529b7051-a28e-4e00-8374-6d799d674122
+    Resources:
+    - name: thug
+      pathPrefix: Characters
+      guid: 1d0a487d81791be4f95004484f357724
