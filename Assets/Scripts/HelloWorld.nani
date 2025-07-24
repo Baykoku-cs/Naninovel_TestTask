@@ -1,16 +1,28 @@
 @back Tavern
 @char wk.Face/Default>,FaceEffect>None
 wk: Привет!!
+
 @choice Да goto:.Yes
 @choice Нет goto:.No
 wk: Поможешь мне?
-@stop
 
 # Yes
+@addScore scoreDelta:10
 wk: Круто! Спасибо!!!
-@goto .SkipNo
+@goto .Exit
 # No
+@char wk.Face/Shock>,FaceEffect>Darker
 wk: Эээ...
-# SkipNo
+
+# Exit
+@char wk.Face/Default>,FaceEffect>None
 wk: Неважно.
+
+@checkScore scoreThreshold:5 ifLabel:GoodEnd elseLabel:BadEnd
+
+# GoodEnd
+Хорошая концовка!
+@stop
+# BadEnd
+Плохая концовка(
 @stop
