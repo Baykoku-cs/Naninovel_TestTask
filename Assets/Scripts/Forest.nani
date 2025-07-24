@@ -10,8 +10,8 @@ wk: АААА! Плохой!
 @char wk.Face/Default>,FaceEffect>None
 wk: Придется драться!!!
 
-; @startGame
-@set isFightEnded=true
+@hideChars
+@startMemo
 
 # AfterGame
 thug: Блиииин! Вы победили меня(
