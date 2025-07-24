@@ -1,4 +1,5 @@
 @back Tavern
-@char wk
+@char wk.Face/Default>,FaceEffect>None
 wk: Привет!!
+wk: Поможешь мне?
 @stop
