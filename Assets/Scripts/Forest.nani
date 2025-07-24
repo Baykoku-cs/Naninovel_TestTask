@@ -14,10 +14,13 @@ wk: Придется драться!!!
 @startMemo
 
 # AfterGame
+@char wk pos:20 time:0.1 wait:false
+@char thug pos:80 time:0.1 wait:true
 thug: Блиииин! Вы победили меня(
 wk: Ага
 thug: Я убегаю
-@hide thug
+@hide thug wait:false
 @arrange 
 Ну все, домой
+@hidePrinter 
 @goto GuildTavern.AfterFight

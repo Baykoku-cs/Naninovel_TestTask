@@ -25,7 +25,7 @@ public class StartMemoCommand : Command
 
 
         // 4. Swap Cameras.
-        MemoGameCamera.Instance.ToggleCamera(true);
+        MemoGameManager.Instance.ToggleCamera(true);
         Engine.GetService<ICameraManager>().Camera.enabled = false;
 
         return UniTask.CompletedTask;

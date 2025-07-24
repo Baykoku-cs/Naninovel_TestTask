@@ -149,6 +149,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 827818444}
+  _inGameCards:
+  - {fileID: 21300000, guid: 7d02e600426878e4db93c09148bad7c3, type: 3}
+  - {fileID: 21300000, guid: afb44e818afe9ab44aaf651254411571, type: 3}
+  - {fileID: 21300000, guid: 5c1698450e37ba947beacdf6e68117ab, type: 3}
+  - {fileID: 21300000, guid: ca47b91b22dc4c4418e6ce58e7918545, type: 3}
+  - {fileID: 21300000, guid: 7863e63a0730d2e41b80b297ff6a9b53, type: 3}
+  - {fileID: 21300000, guid: 327e1a06ba521c5488654e0763fe7fe1, type: 3}
+  - {fileID: 21300000, guid: 27879a2389f6df9498d563bf2cd8d633, type: 3}
+  - {fileID: 21300000, guid: 04c775c7ae8407d4782f8186b8a9c65c, type: 3}
+  _defaultIcon: {fileID: 21300000, guid: 7895f76cfa9a93245b645429bdf5a4a5, type: 3}
+  _cardPrefab: {fileID: 757661653554848314, guid: 4c4ece340aa8f8342b47c8a007db713c, type: 3}
+  _allCardsParent: {fileID: 1432214882}
 --- !u!4 &115327459
 Transform:
   m_ObjectHideFlags: 0
@@ -526,7 +538,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1432214882}
   - component: {fileID: 1432214883}
-  - component: {fileID: 1432214884}
   m_Layer: 6
   m_Name: CardGroup
   m_TagString: Untagged
@@ -577,29 +588,6 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 20}
   m_Constraint: 1
   m_ConstraintCount: 4
---- !u!114 &1432214884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432214881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3d2f81ff54258b419e09dffe725a223, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _inGameCards:
-  - {fileID: 21300000, guid: 7d02e600426878e4db93c09148bad7c3, type: 3}
-  - {fileID: 21300000, guid: afb44e818afe9ab44aaf651254411571, type: 3}
-  - {fileID: 21300000, guid: 5c1698450e37ba947beacdf6e68117ab, type: 3}
-  - {fileID: 21300000, guid: ca47b91b22dc4c4418e6ce58e7918545, type: 3}
-  - {fileID: 21300000, guid: 7863e63a0730d2e41b80b297ff6a9b53, type: 3}
-  - {fileID: 21300000, guid: 327e1a06ba521c5488654e0763fe7fe1, type: 3}
-  - {fileID: 21300000, guid: 27879a2389f6df9498d563bf2cd8d633, type: 3}
-  - {fileID: 21300000, guid: 04c775c7ae8407d4782f8186b8a9c65c, type: 3}
-  _defaultIcon: {fileID: 21300000, guid: 7895f76cfa9a93245b645429bdf5a4a5, type: 3}
-  _cardPrefab: {fileID: 757661653554848314, guid: 4c4ece340aa8f8342b47c8a007db713c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

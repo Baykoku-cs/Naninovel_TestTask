@@ -24,6 +24,7 @@ wk: Неважно. Мы идем за цветами.
 
 # AfterFight
 @back Tavern
+wk: Круто, что все хорошо
 @checkScore scoreThreshold:5 ifLabel:GoodEnd elseLabel:BadEnd
 # GoodEnd
 Хорошая концовка!
