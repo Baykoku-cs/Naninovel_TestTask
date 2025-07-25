@@ -18,6 +18,8 @@
 /Assets/NaninovelData/Transient*
 # Transient artifacts of the external tools.
 /Assets/NaninovelData/.nani/Transient*
+# Saves
+/Assets/NaninovelData/Saves*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
