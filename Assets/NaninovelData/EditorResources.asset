@@ -144,6 +144,9 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: ScoreUI
+      pathPrefix: UI
+      guid: 235b2df27d9397746ae227017bc62f31
   - Id: Characters/616f28fe-9b98-4a02-8b69-bfb2d037dc17
     Resources:
     - name: Alice

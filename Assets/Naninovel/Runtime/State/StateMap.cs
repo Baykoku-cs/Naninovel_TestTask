@@ -1,4 +1,4 @@
-// Copyright 2023 ReWaffle LLC. All rights reserved.
+﻿// Copyright 2023 ReWaffle LLC. All rights reserved.
 
 using System;
 using System.Collections.Generic;

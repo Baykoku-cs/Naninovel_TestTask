@@ -22,5 +22,5 @@ Thug: Я убегаю
 @hide Thug
 @arrange 
 Ну все, домой
-@hidePrinter 
+@hideAll
 @goto GuildTavern.AfterFight
