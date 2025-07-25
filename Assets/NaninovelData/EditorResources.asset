@@ -165,7 +165,7 @@ MonoBehaviour:
       guid: c266faa2f49f35042927c3d1a03df9b2
   - Id: Characters/a7cd6bc9-8edc-4b8b-846c-d45193e3572f
     Resources:
-    - name: wk
+    - name: Alice
       pathPrefix: Characters
       guid: 10bc53477fc8c094fa42fb968adce87e
   - Id: Characters/529b7051-a28e-4e00-8374-6d799d674122
