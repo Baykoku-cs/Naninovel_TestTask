@@ -1,2 +1,0 @@
-# Naninovel_TestTask
-

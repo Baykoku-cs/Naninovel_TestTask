@@ -30,9 +30,9 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: e2575401-1984-4e00-add0-9268f830cc99
+    guid: c0809d74-c78e-4b8c-9d9e-a57575b5f05f
     customData:
-      rid: -2
+      id: 0
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
     EnableDepthPass: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
   Metadata:
     ids:
     - Alice
-    - thug
+    - Thug
     metas:
     - Implementation: Naninovel.LayeredCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -77,9 +77,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: a7cd6bc9-8edc-4b8b-846c-d45193e3572f
+      guid: 616f28fe-9b98-4a02-8b69-bfb2d037dc17
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -119,9 +119,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 529b7051-a28e-4e00-8374-6d799d674122
+      guid: 5a0ada9f-8835-42fb-b7c7-005f1cdcee3c
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -136,49 +136,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: 
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
-      MessageColor: {r: 1, g: 1, b: 1, a: 1}
-      HighlightWhenSpeaking: 0
-      HighlightCharacterCount: 0
-      SpeakingPose: 
-      NotSpeakingPose: 
-      PlaceOnTop: 1
-      HighlightDuration: 0.35
-      HighlightEasing: 1
-      MessageSound: 
-      MessageSoundPlayback: 0
-      VoiceSource: {fileID: 0}
-      LinkedPrinter: 
-      Poses: []
-    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      Loader:
-        PathPrefix: Characters
-        ProviderTypes:
-        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      guid: 9ddf4068-7ba6-4e5e-bc25-4f6559cf427a
-      customData:
-        rid: -2
-      Pivot: {x: 0.5, y: 0}
-      PixelsPerUnit: 100
-      EnableDepthPass: 1
-      DepthAlphaCutoff: 0.5
-      CustomTextureShader: {fileID: 0}
-      CustomSpriteShader: {fileID: 0}
-      RenderTexture: {fileID: 0}
-      RenderRectangle:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1
-        height: 1
-      BakedLookDirection: 1
-      DisplayName: 
+      DisplayName: "\u0413\u0440\u0430\u0431\u0438\u0442\u0435\u043B\u044C"
       UseCharacterColor: 0
       NameColor: {r: 1, g: 1, b: 1, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
@@ -203,7 +161,6 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   SharedPoses: []
   references:
-    version: 2
-    RefIds:
-    - rid: -2
+    version: 1
+    00000000:
       type: {class: , ns: , asm: }

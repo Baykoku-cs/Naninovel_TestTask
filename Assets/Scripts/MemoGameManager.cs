@@ -15,7 +15,7 @@ public class MemoGameManager : MonoBehaviour
     private bool _isGameActive;
     private void Awake()
     {
-        if (Instance is not null)
+        if (Instance != null)
         {
             Debug.LogError("MemoGameCamera instance already exists.");
         }

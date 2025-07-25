@@ -3,8 +3,7 @@
 Сегодня утро началось как обычно, с гильдии.[i] Чет впадлу чем-то заниматься.
 Вдруг вы слышите знакомый голос
 ?: О, ты уже тут
-@goto Main
-@char Alice.Face/Default>,FaceEffect>None wait:false
+@char Alice.Face/Default>,FaceEffect>None
 Это ваша подруга. Её зовут эээ... Алиса
 Alice: Привет!!
 гг: Привет

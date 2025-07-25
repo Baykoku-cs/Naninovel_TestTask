@@ -34,9 +34,9 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: e1c1c6ea-e46f-4f97-913d-58d9fd965987
+    guid: cc43a3f1-04a5-4f75-9032-fd489328f660
     customData:
-      rid: -2
+      id: 0
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
     EnableDepthPass: 1
@@ -80,9 +80,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: b9b441e7-5f80-42fb-aba4-77eba5e24bf5
+      guid: 620e3860-ec4b-4404-bbcf-15c608314cc6
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -118,9 +118,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: fcefc6f9-293b-41fe-8ec9-d834fa9a3064
+      guid: 43ea87aa-f801-489b-8643-6f1877aa0bdb
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -156,9 +156,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 2cf90a61-e8c2-4445-b0c6-8bdf2955799c
+      guid: d36c2933-2c5e-4ed4-af21-5efc364744f5
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -194,9 +194,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: fd522161-e240-480c-a3ef-ffa165f4fe42
+      guid: 70f97ff4-19b6-4b12-a5c9-93f70ec7237f
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -232,9 +232,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 9430021d-4e1a-474d-a7ef-3b7b88945495
+      guid: ee05d160-c9d9-435b-aa19-4d2832e9b93f
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -262,7 +262,6 @@ MonoBehaviour:
       RevealInstantly: 0
       AuthoredTemplate: 
   references:
-    version: 2
-    RefIds:
-    - rid: -2
+    version: 1
+    00000000:
       type: {class: , ns: , asm: }

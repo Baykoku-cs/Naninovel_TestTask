@@ -314,7 +314,7 @@ namespace Naninovel
         protected virtual void ConfigureUICameraForURP (Camera camera)
         {
             #if URP_AVAILABLE
-            if (!UnityEngine.Rendering.GraphicsSettings.defaultRenderPipeline) return;
+            if (!UnityEngine.Rendering.GraphicsSettings.renderPipelineAsset) return;
             var uiData = UnityEngine.Rendering.Universal.CameraExtensions.GetUniversalAdditionalCameraData(camera);
             uiData.renderType = UnityEngine.Rendering.Universal.CameraRenderType.Overlay;
             var mainData = UnityEngine.Rendering.Universal.CameraExtensions.GetUniversalAdditionalCameraData(Camera);
