@@ -36,7 +36,7 @@ public class MemoGameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance is not null)
+        if (Instance != null)
         {
             Debug.LogError("MemoGameCamera instance already exists.");
         }
@@ -149,7 +149,7 @@ public class MemoGameManager : MonoBehaviour
     private void EndGame()
     {
         _isGameActive = false;
-        //SwitchToNovel();
+        SwitchToNovel();
     }
 
     private void SwitchToNovel()

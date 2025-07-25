@@ -1,7 +1,5 @@
-﻿using Unity.VisualScripting;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using static System.TimeZoneInfo;
 
 public class Thug : MonoBehaviour
 {
@@ -13,13 +11,13 @@ public class Thug : MonoBehaviour
     private int _maxHealth;
     private int _health;
     private float _wishedFillAmount;
-    private float _transitionDuration = 5f;
+    private float _transitionDuration = 3f;
     private float _transitionTimer;
 
     public static Thug Instance { get; private set; }
     private void Awake()
     {
-        if (Instance is not null)
+        if (Instance != null)
         {
             Debug.LogError("Thug instance already exists.");
         }
