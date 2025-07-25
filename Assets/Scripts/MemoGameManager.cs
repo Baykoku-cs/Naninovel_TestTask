@@ -20,6 +20,7 @@ public class MemoGameManager : MonoBehaviour
 
     [SerializeField]
     private Camera _camera;
+    
     [SerializeField]
     private List<Sprite> _inGameCards;
     [SerializeField]

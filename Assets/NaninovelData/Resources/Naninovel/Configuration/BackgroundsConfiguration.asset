@@ -28,9 +28,9 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: a3abc16d-3ba8-403a-bfca-b9966a0c4db4
+    guid: 46287457-bd63-403c-8c3e-1c0c6232215f
     customData:
-      rid: -2
+      id: 0
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
     EnableDepthPass: 1
@@ -60,9 +60,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 12ae0957-5dd4-4591-ad5d-7d94063f8814
+      guid: 5d3903b8-6f38-4e2b-abff-564a2283d3f2
       customData:
-        rid: -2
+        id: 0
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -81,7 +81,6 @@ MonoBehaviour:
       Poses: []
   SharedPoses: []
   references:
-    version: 2
-    RefIds:
-    - rid: -2
+    version: 1
+    00000000:
       type: {class: , ns: , asm: }

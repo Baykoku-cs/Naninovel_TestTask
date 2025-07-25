@@ -13,42 +13,42 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/b9b441e7-5f80-42fb-aba4-77eba5e24bf5
+  - Id: TextPrinters/620e3860-ec4b-4404-bbcf-15c608314cc6
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
       guid: 1bc08ccd31adff6439e97161aa6e1d8b
-  - Id: TextPrinters/fcefc6f9-293b-41fe-8ec9-d834fa9a3064
+  - Id: TextPrinters/43ea87aa-f801-489b-8643-6f1877aa0bdb
     Resources:
     - name: Fullscreen
       pathPrefix: TextPrinters
       guid: c87cebd3f0d4f174789cd351ce9591c4
-  - Id: TextPrinters/2cf90a61-e8c2-4445-b0c6-8bdf2955799c
+  - Id: TextPrinters/d36c2933-2c5e-4ed4-af21-5efc364744f5
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
       guid: 781828b806deb1e4cbf50ef9de41da10
-  - Id: TextPrinters/fd522161-e240-480c-a3ef-ffa165f4fe42
+  - Id: TextPrinters/70f97ff4-19b6-4b12-a5c9-93f70ec7237f
     Resources:
     - name: Chat
       pathPrefix: TextPrinters
       guid: 6f9836a3c4f777741b1962979d97e485
-  - Id: TextPrinters/9430021d-4e1a-474d-a7ef-3b7b88945495
+  - Id: TextPrinters/ee05d160-c9d9-435b-aa19-4d2832e9b93f
     Resources:
     - name: Bubble
       pathPrefix: TextPrinters
       guid: b47d9659b2be5ee4e95a776f213c9d4b
-  - Id: ChoiceHandlers/4fc21e7b-6339-4b13-9ea7-59ba91e2896b
+  - Id: ChoiceHandlers/88d9435e-878c-490f-9249-b771ae6f11c7
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
       guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: ChoiceHandlers/c9fab921-b688-4937-ad0a-227702a58c35
+  - Id: ChoiceHandlers/502502c2-632d-4eba-b508-9921c98bc7e7
     Resources:
     - name: ButtonArea
       pathPrefix: ChoiceHandlers
       guid: 4fa6d62f894ae6e4698bfa8af59e7942
-  - Id: ChoiceHandlers/5245d6cb-285a-40aa-9d51-c79a24630b44
+  - Id: ChoiceHandlers/01a2a58a-a752-4a21-bd4e-ded590d2f8bd
     Resources:
     - name: ChatReply
       pathPrefix: ChoiceHandlers
@@ -144,6 +144,27 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Characters/616f28fe-9b98-4a02-8b69-bfb2d037dc17
+    Resources:
+    - name: Alice
+      pathPrefix: Characters
+      guid: 10bc53477fc8c094fa42fb968adce87e
+  - Id: Backgrounds/5d3903b8-6f38-4e2b-abff-564a2283d3f2
+    Resources:
+    - name: Forest
+      pathPrefix: Backgrounds/MainBackground
+      guid: c266faa2f49f35042927c3d1a03df9b2
+    - name: Tasks
+      pathPrefix: Backgrounds/MainBackground
+      guid: 06649d694aa1fcc4a8eae03a0f3aa402
+    - name: Tavern
+      pathPrefix: Backgrounds/MainBackground
+      guid: d6be465847130a44191f0abc9856aa3c
+  - Id: Characters/5a0ada9f-8835-42fb-b7c7-005f1cdcee3c
+    Resources:
+    - name: Thug
+      pathPrefix: Characters
+      guid: 1d0a487d81791be4f95004484f357724
   - Id: Scripts
     Resources:
     - name: GuildTavern
@@ -152,24 +173,3 @@ MonoBehaviour:
     - name: Forest
       pathPrefix: Scripts
       guid: 5d8cecc5cb50dbf48933d85e3aa9e5ad
-  - Id: Backgrounds/12ae0957-5dd4-4591-ad5d-7d94063f8814
-    Resources:
-    - name: Tavern
-      pathPrefix: Backgrounds/MainBackground
-      guid: d6be465847130a44191f0abc9856aa3c
-    - name: Tasks
-      pathPrefix: Backgrounds/MainBackground
-      guid: 06649d694aa1fcc4a8eae03a0f3aa402
-    - name: Forest
-      pathPrefix: Backgrounds/MainBackground
-      guid: c266faa2f49f35042927c3d1a03df9b2
-  - Id: Characters/a7cd6bc9-8edc-4b8b-846c-d45193e3572f
-    Resources:
-    - name: wk
-      pathPrefix: Characters
-      guid: 10bc53477fc8c094fa42fb968adce87e
-  - Id: Characters/529b7051-a28e-4e00-8374-6d799d674122
-    Resources:
-    - name: thug
-      pathPrefix: Characters
-      guid: 1d0a487d81791be4f95004484f357724
