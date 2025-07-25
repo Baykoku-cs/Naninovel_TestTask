@@ -1,0 +1,51 @@
+@back Tavern
+
+Сегодня утро началось как обычно, с гильдии.[i] Чет впадлу чем-то заниматься.
+Вдруг вы слышите знакомый голос
+?: О, ты уже тут
+@char Alice.Face/Default>,FaceEffect>None
+Это ваша подруга. Её зовут эээ... Алиса
+Alice: Привет!!
+гг: Привет
+Alice: Пойдем типа квест делать?
+Работать не хочется, но деньги нужны...
+гг: Да, пойдем. Есть предложения?
+Alice: У меня нет идей. Пойдем на доску посмотрим
+@save
+
+@hidePrinter 
+@hide Alice
+@back Tasks
+wk: Посмотрим[wait 0.2].[wait 0.2].[wait 0.2].[i] Фуу... слайм... ненавижу их. [i] О! Задание с цветами звучит неплохо! Поможешь мне цветы собрать?
+Работать, конечно, не хочется. Но цветы собирать звучит уж слишком скучно...
+@choice "Выбрать задание со слаймом" goto:.Yes
+@choice "Выбрать задание с цветами" goto:.Yes
+@choice "Выбрать задание с драконом" goto:.Yes
+Alice: Поможешь мне? [skipInput]
+@stop
+
+# Yes
+@addScore scoreDelta:10
+wk: Круто! Спасибо!!!
+@goto .Exit
+# No
+@char wk.Face/Shock>,FaceEffect>Darker
+wk: Эээ...
+
+# Exit
+@char wk.Face/Default>,FaceEffect>None
+wk: Неважно. Мы идем за цветами.
+@hidePrinter 
+@goto Forest
+@stop
+
+# AfterFight
+@back Tavern
+wk: Круто, что все хорошо
+@checkScore scoreThreshold:5 ifLabel:GoodEnd elseLabel:BadEnd
+# GoodEnd
+Хорошая концовка!
+@stop
+# BadEnd
+Плохая концовка(
+@stop

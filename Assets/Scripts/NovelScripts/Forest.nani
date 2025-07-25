@@ -1,0 +1,26 @@
+@back Forest
+Alice: Мы идем по лесу за цветами. Круто!
+@char Alice pos:20
+Alice: О. Кто-то идет!
+
+@char Thug pos:80
+Thug: Я плохой!
+@char Alice.Face/Shock>,FaceEffect>Darker
+Alice: АААА! Плохой!
+@char Alice.Face/Default>,FaceEffect>None
+Alice: Придется драться!!!
+
+@hideChars
+@startMemo
+
+# AfterGame
+@char Alice pos:20 time:0.1
+@char Thug pos:80 time:0.1
+Thug: Блиииин! Вы победили меня(
+Alice: Ага
+Thug: Я убегаю
+@hide Thug
+@arrange 
+Ну все, домой
+@hidePrinter 
+@goto GuildTavern.AfterFight

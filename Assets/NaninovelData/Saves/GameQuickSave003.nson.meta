@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/NaninovelData/Saves/GameQuickSave003.nson.meta
 guid: c56b2a61958d99e40b9eed391a2633e8
+========
+guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+folderAsset: yes
+>>>>>>>> MemoGamePolishing:Assets/TextMesh Pro/Documentation.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
