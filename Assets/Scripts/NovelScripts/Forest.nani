@@ -1,11 +1,17 @@
 @back Forest
+@stopBgm
+@bgm Forest volume:0.1 fade:1
 Alice: Ну, вроде тихо... Травка, цветочки, птички...
 @char Alice pos:20
 Alice: Хотя подожди... Кто это?
 
 @char Thug pos:80
+@stopBgm
+@bgm Battle volume:0.2 fade:1
 Thug: Ваш путь заканчивается здесь! Я злодей и забираю цветы!
 @char Alice.Face/Shock>,FaceEffect>Darker
+@sfx bdum volume:0.4
+@shake Alice count:4 time:0.1 power:0.5 deltaTime:0.05 deltaPower:0.2 hor:false ver:true
 Alice: ЧТО?! Он пришёл за цветами?! Ты серьёзно?!
 @char Alice.Face/Default>,FaceEffect>None
 Alice: Ладно, давай сделаем его!
@@ -14,6 +20,9 @@ Alice: Ладно, давай сделаем его!
 @startMemo
 
 # AfterGame
+@sfx win volume:0.4
+@stopBgm
+@bgm Forest volume:0.1 fade:1
 @char Alice pos:20 time:0.1
 @char Thug pos:80 time:0.1
 
@@ -21,13 +30,14 @@ Thug: Нет! Как вы это сделали?! Я даже... не понял
 Alice: Мы просто умнее. И быстрее. И вообще — иди домой, разбойник.
 
 Thug: Ладно, ладно! Я сдаюсь! Цветы ваши!
+@sfx swing volume:0.4
 @char Thug pos:150 time:0.1
 @hide Thug
 
 [i] Бандит скрылся в кустах, громко ругаясь.
 
 Alice: Фух... Ну и денёк. Кто вообще нападает на людей из-за цветов?
-гг: Может, он флорист-самоучка с тёмным прошлым.
+Гг: Может, он флорист-самоучка с тёмным прошлым.
 Alice: Ага. И его выгнали из гильдии за то, что он перепутал ромашку с мухомором.
 
 Alice: Ладно, хватит приключений. Цветы мы собрали, бандита прогнали... Пора домой.

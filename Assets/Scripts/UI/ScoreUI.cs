@@ -40,6 +40,11 @@ public class ScoreUI : MonoBehaviour
         if (_showedScore != _wishedScore)
         {
             _ui.Show();
+            var audioManager = Engine.GetService<IAudioManager>();
+            if (!audioManager.IsSfxPlaying("score"))
+            {
+                audioManager.PlaySfxAsync("score");
+            }
             _timer += Time.deltaTime;
             if (_timer >= 1f / _updateSpeed)
             {

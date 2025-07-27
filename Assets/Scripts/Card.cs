@@ -4,20 +4,22 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Card : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class Card : MonoBehaviour, IPointerDownHandler
 {
     public static event Action<Card> OnCardSelected;
 
     private static Image _defaultIconImage;
-    
+
     [SerializeField]
     private Image _iconImage;
     [SerializeField]
     private Outline _outline;
+    [SerializeField]
+    private Transform _projectTails;
 
     private Sprite _defaultIcon;
     private Sprite _iconSprite;
-    
+
     public int Id { get; private set; }
     public bool IsSelected { get; private set; }
 
@@ -26,7 +28,7 @@ public class Card : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         Id = id;
         _defaultIcon = defaultIcon;
         _iconSprite = iconSprite;
-        
+
         SetIconSprite(_defaultIcon);
     }
     public void OnPointerDown(PointerEventData eventData)
@@ -36,10 +38,6 @@ public class Card : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             Select();
         }
     }
-    public void OnPointerUp(PointerEventData eventData)
-    {
-    }
-
     private void SetIconSprite(Sprite sprite) => _iconImage.sprite = sprite;
     public void Select()
     {
@@ -55,4 +53,6 @@ public class Card : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         SetIconSprite(_defaultIcon);
         _outline.effectColor = Color.black;
     }
+
+
 }

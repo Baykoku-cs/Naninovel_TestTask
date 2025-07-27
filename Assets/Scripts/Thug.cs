@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Naninovel;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Thug : MonoBehaviour
@@ -57,6 +58,8 @@ public class Thug : MonoBehaviour
     }
     private void TakeDamage()
     {
+        _animator.SetTrigger("Damaged");
+        Engine.GetService<IAudioManager>().PlaySfxAsync("ThugHit");
         _transitionTimer = 0f;
         _health -= 1;
         _wishedFillAmount = (float)_health / _maxHealth;
